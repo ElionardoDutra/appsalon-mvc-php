@@ -1,0 +1,1 @@
+function seleccionarFecha(){document.querySelector("#fecha").addEventListener(input,(function(e){const t=new Date(e.target.value).getUTCDay();[6,0].includes(t)?(target.value="",mostrarAlerta("Fin de Semana no permitidos","error")):cita.fecha=e.ta.value}))}

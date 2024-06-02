@@ -1,0 +1,22 @@
+{
+    "name": "fabiandutra/appsalon",
+    "description": "AppSalon",
+    "autoload": {
+        "psr-4": {
+            "Fabiandutra\\Appsalon\\": "src/",
+            "MVC\\":"./",
+            "Controllers\\":"./controllers",
+            "Model\\": "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabian Dutra"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
